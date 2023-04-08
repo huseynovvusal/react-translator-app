@@ -26,9 +26,12 @@ body {
 #root {
   height: 100%;
   min-height: 100%;
-  overflow: hidden;
 }
 
 ::-webkit-scrollbar {
   width: 0;
+}
+
+::selection {
+  background: #808080;
 }
